@@ -163,6 +163,40 @@ textarea {
   width: 100%;
 }
 
+.hero-profile {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.hero-profile img {
+  aspect-ratio: 1;
+  border: 3px solid rgba(255, 255, 255, 0.82);
+  border-radius: 50%;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  height: 5.4rem;
+  object-fit: cover;
+  object-position: 50% 32%;
+  width: 5.4rem;
+}
+
+.hero-profile div {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.hero-profile span {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.hero-profile small {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
 .eyebrow,
 .section-kicker,
 .role-meta,
@@ -532,6 +566,11 @@ h3 {
   .hero-content {
     margin-left: 0;
     max-width: 22rem;
+  }
+
+  .hero-profile img {
+    height: 4.3rem;
+    width: 4.3rem;
   }
 
   .hero-overlay {
