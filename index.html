@@ -32,38 +32,65 @@
         <img class="hero-image" src="assets/portfolio-hero.png" alt="" aria-hidden="true">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-          <div class="hero-profile">
-            <img src="assets/profile-avatar.jpg" alt="K. Guruprasath profile photo">
-            <div>
-              <span>K. Guruprasath</span>
-              <small>Data Analytics & UI/UX Designer</small>
+          <div class="hero-copy">
+            <div class="hero-profile">
+              <img src="assets/profile-avatar.jpg" alt="K. Guruprasath profile photo">
+              <div>
+                <span>K. Guruprasath</span>
+                <small>Data Analytics & UI/UX Designer</small>
+              </div>
+            </div>
+            <p class="eyebrow">Data Analytics + UI/UX</p>
+            <h1 id="hero-title">K. Guruprasath</h1>
+            <p class="hero-lead">
+              I turn raw data into clear dashboards and shape user focused digital experiences with
+              Excel, Power BI, SQL, Python, wireframes, and prototypes.
+            </p>
+            <div class="hero-actions" aria-label="Main actions">
+              <a class="button button-primary" href="assets/k-guruprasath-resume.pdf" download>Download Resume</a>
+              <a class="button button-secondary" href="mailto:guruprasathkannaiyan@gmail.com">Email Me</a>
+              <a class="button button-secondary" href="https://www.linkedin.com/in/k-guruprasath-552756278" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+            <dl class="hero-stats" aria-label="Career highlights">
+              <div>
+                <dt>2</dt>
+                <dd>Internships</dd>
+              </div>
+              <div>
+                <dt>2</dt>
+                <dd>Analytics Projects</dd>
+              </div>
+              <div>
+                <dt>8+</dt>
+                <dd>Technical Skills</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-showcase" aria-label="Portfolio snapshot">
+            <div class="portrait-panel">
+              <img class="portrait-image" src="assets/profile-photo.jpg" alt="K. Guruprasath formal portrait">
+              <div class="portrait-caption">
+                <span>Based in Bengaluru</span>
+                <strong>Data analyst with UI/UX execution</strong>
+              </div>
+            </div>
+            <div class="snapshot-panel">
+              <p class="snapshot-label">Portfolio Snapshot</p>
+              <div class="snapshot-row">
+                <strong>Excel, BI, SQL</strong>
+                <span>Analysis stack</span>
+              </div>
+              <div class="snapshot-row">
+                <strong>Dashboards</strong>
+                <span>KPI reporting</span>
+              </div>
+              <div class="snapshot-row">
+                <strong>Wireframes</strong>
+                <span>Product thinking</span>
+              </div>
             </div>
           </div>
-          <p class="eyebrow">Data Analytics + UI/UX</p>
-          <h1 id="hero-title">K. Guruprasath</h1>
-          <p class="hero-lead">
-            I turn raw data into clear dashboards and shape user focused digital experiences with
-            Excel, Power BI, SQL, Python, wireframes, and prototypes.
-          </p>
-          <div class="hero-actions" aria-label="Main actions">
-            <a class="button button-primary" href="assets/k-guruprasath-resume.pdf" download>Download Resume</a>
-            <a class="button button-secondary" href="mailto:guruprasathkannaiyan@gmail.com">Email Me</a>
-            <a class="button button-secondary" href="https://www.linkedin.com/in/k-guruprasath-552756278" target="_blank" rel="noreferrer">LinkedIn</a>
-          </div>
-          <dl class="hero-stats" aria-label="Career highlights">
-            <div>
-              <dt>2</dt>
-              <dd>Internships</dd>
-            </div>
-            <div>
-              <dt>2</dt>
-              <dd>Analytics Projects</dd>
-            </div>
-            <div>
-              <dt>8+</dt>
-              <dd>Technical Skills</dd>
-            </div>
-          </dl>
         </div>
       </section>
 
@@ -86,6 +113,23 @@
             </div>
           </div>
         </div>
+        <div class="section-shell focus-grid" aria-label="Core strengths">
+          <article class="focus-card reveal">
+            <span>01</span>
+            <h3>Dashboard Thinking</h3>
+            <p>Builds KPI-focused Excel and BI views that make revenue, profit, and trends easy to read.</p>
+          </article>
+          <article class="focus-card reveal">
+            <span>02</span>
+            <h3>Clean Data Practice</h3>
+            <p>Handles missing values, duplicates, date formats, and structured analysis preparation.</p>
+          </article>
+          <article class="focus-card reveal">
+            <span>03</span>
+            <h3>UX Clarity</h3>
+            <p>Creates wireframes, prototypes, and feedback-driven mobile application improvements.</p>
+          </article>
+        </div>
       </section>
 
       <section class="section-band" id="projects" aria-labelledby="projects-title">
@@ -101,6 +145,11 @@
                 <span>Data Analyst Project</span>
               </div>
               <h3>Excel Sales Performance Dashboard</h3>
+              <div class="project-metrics" aria-label="Project highlights">
+                <span>Total revenue</span>
+                <span>Profit margin</span>
+                <span>Orders</span>
+              </div>
               <p>
                 Analyzed raw sales data and built a dashboard with KPIs for revenue, profit, orders,
                 and profit margin.
@@ -118,6 +167,11 @@
                 <span>Data Analysis Project</span>
               </div>
               <h3>Excel Sales & Revenue Analysis</h3>
+              <div class="project-metrics" aria-label="Project highlights">
+                <span>Pivot tables</span>
+                <span>Top customers</span>
+                <span>Trend charts</span>
+              </div>
               <p>
                 Prepared a sales dataset and created analysis views for total sales, monthly
                 revenue, and top customers.
@@ -178,14 +232,14 @@
             <section class="skill-card reveal" aria-labelledby="technical-title">
               <h3 id="technical-title">Technical Skills</h3>
               <div class="skill-list">
-                <span>Excel</span>
-                <span>Power BI</span>
-                <span>Tableau</span>
-                <span>SQL</span>
-                <span>Python</span>
-                <span>UI/UX</span>
-                <span>Wireframing</span>
-                <span>Prototyping</span>
+                <span style="--level: 92%">Excel</span>
+                <span style="--level: 82%">Power BI</span>
+                <span style="--level: 78%">Tableau</span>
+                <span style="--level: 76%">SQL</span>
+                <span style="--level: 72%">Python</span>
+                <span style="--level: 86%">UI/UX</span>
+                <span style="--level: 84%">Wireframing</span>
+                <span style="--level: 82%">Prototyping</span>
               </div>
             </section>
             <section class="skill-card reveal" aria-labelledby="soft-title">
